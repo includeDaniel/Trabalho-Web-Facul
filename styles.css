@@ -1,0 +1,75 @@
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--base-color-one);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.WhiteLink {
+    color: var(--text-color-light);
+}
+
+.MainContent {
+    background-color: var(--background-color);
+    display: flex;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.Summary {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vh;
+    background-color: var(--base-color-two);
+    
+}
+
+.SummaryLinks {
+    padding-left: 10px;
+}
+
+li {
+    padding-top: 5px;
+}
+
+.Observation {
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.TextContent {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    padding-top: 25px;
+}
+
+.Footer {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    background-color: var(--base-color-one);
+}

@@ -11,13 +11,13 @@
     --text-font-size: 1.6rem;
 
     /* colors */
-    --hue: 100;
+    --hue: 600;
     /* HSL color mode */
     --base-color-one: hsl(var(--hue) 36% 57%);
     --base-color-two: hsl(var(--hue) 65% 88%);
-    --base-color-three: hsl(var(--hue) 57% 53%);
+    --base-color-three: hsl(var(--hue) 100% 75%);
     --title-color: hsl(var(--hue) 41% 10%);
-    --text-color: hsl(0 0% 46%);
+    --text-color: hsl(0, 0%, 0%);
     --text-color-light: hsl(0 0% 98%);
     --background-color: hsl(0 0% 98%);
 }
