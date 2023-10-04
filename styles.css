@@ -29,6 +29,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    font-size: 30px;
     justify-content: center;
     align-items: center;
     border-top: white solid;
@@ -37,6 +38,7 @@
 
     @media screen and (max-width: 704px) {
         border: none;
+        font-size: 15px;;
     }
 }
 
