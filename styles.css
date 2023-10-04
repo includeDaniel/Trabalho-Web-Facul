@@ -3,49 +3,137 @@
     flex-direction: column;
 }
 
-header {
-    background-color: var(--base-color-one);
+.Center {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCFzX1PdsrTgT38XvZ_Kp-zSNlh2RwGYmxg&usqp=CAU");
+    display: flex;  
+    position: static;
+    align-items: center;
     width: 100%;
-    height: 100px;
+    height: 150px;
+    color: var(--text-color-light);
+    position: fixed;
+
+    @media screen and (max-width: 704px) {
+        flex-direction: column;
+        padding-bottom: 20px;;
+    }
+}
+
+.WebDevelopmentTitle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: white solid;
+    border-left: white solid;
+    border-bottom: white solid;
+
+    @media screen and (max-width: 704px) {
+        border: none;
+    }
+}
+
+.HeaderRight {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border: white solid;
+
+    @media screen and (max-width: 704px) {
+        border: none;
+    }
+   
+}
+
+.Author {
+    font-size: 15px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
 }
 
 .WhiteLink {
+    padding-left: 5px;
     color: var(--text-color-light);
+    text-decoration: underline;
 }
+
+.WhiteLink:hover {
+    color: #C4C5BA;
+}
+
 
 .MainContent {
     background-color: var(--background-color);
     display: flex;
+    flex-direction: column;
 }
 
-h1 {
-    font-size: 50px;
-}
 
 .Summary {
-    padding-top: 15px;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    padding-bottom: 35px;
+    color: var(--text-color-light);
+
+    @media screen and (max-width: 704px) {
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+}
+.SummaryLinks {
+    width: 100%;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45vh;
-    background-color: var(--base-color-two);
+    justify-content: center;
+    border-right: white solid;
+    @media screen and (max-width: 704px) {
+        border-right: none;
+        border-bottom: white solid;
+        padding-bottom: 25px;
+    }
+
+}
+
+.SummaryLink {
     
 }
 
-.SummaryLinks {
-    padding-left: 10px;
-}
-
-li {
-    padding-top: 5px;
-}
 
 .Observation {
-    padding-top: 25px;
-    padding-left: 5px;
+    width: 100vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+    @media screen and (max-width: 704px) {
+        width: 100%;
+        padding-top: 25px;
+        padding-right: 5px;
+        font-size: 15px;
+    }
 }
 
 .TextContent {
@@ -60,8 +148,13 @@ li {
     align-items: center;
 }
 
-section {
-    padding-top: 25px;
+.Section {
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .Footer {
@@ -71,5 +164,6 @@ section {
     align-items: center;
     justify-content: center;
     padding-bottom: 15px;
-    background-color: var(--base-color-one);
+    background-color: black;
+    color: white;
 }
