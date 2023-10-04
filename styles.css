@@ -51,6 +51,7 @@
 
     @media screen and (max-width: 704px) {
         border: none;
+        font-size: 13px;
     }
    
 }
@@ -96,7 +97,7 @@
     @media screen and (max-width: 704px) {
         display: flex;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 .SummaryLinks {
