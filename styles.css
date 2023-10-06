@@ -152,23 +152,25 @@ h2 {
         border-right: none;
         border-bottom: white solid;
         padding-bottom: 25px;
+        padding-left: 20px;
     }
 
 }
 
 .Observation {
-    width: 100vh;
-    font-size: 20px;
+    width: 50vh;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     @media screen and (max-width: 845px) {
-        width: 100%;
+        width: 50vh;
         padding-top: 25px;
         padding-right: 5px;
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
@@ -237,6 +239,42 @@ h2 {
     min-height: 400px;
     background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     border-top: white solid;
+}
+
+.Technologies {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    font-size: 25px;
+}
+
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    /*border: white solid;*/
+}
+
+.Line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    @media screen and (max-width: 845px) {
+        flex-direction: column;
+    }
+    
+}
+
+.Logo {
+    width: 225px;
+    height: 225px;
+    padding: 5px;
 }
 
 .Footer {
