@@ -9,17 +9,20 @@
     align-items: center;
 }
 
+h2 {
+    padding-bottom: 10px;
+}
+
 .Header {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyCFzX1PdsrTgT38XvZ_Kp-zSNlh2RwGYmxg&usqp=CAU");
+    background-color: #000000;
     display: flex;  
     position: static;
     align-items: center;
     width: 100%;
     height: 150px;
     color: var(--text-color-light);
-    position: fixed;
-
-    @media screen and (max-width: 704px) {
+    
+    @media screen and (max-width: 845px) {
         flex-direction: column;
         padding-bottom: 20px;;
     }
@@ -32,11 +35,10 @@
     font-size: 30px;
     justify-content: center;
     align-items: center;
-    border-top: white solid;
-    border-left: white solid;
+
     border-bottom: white solid;
 
-    @media screen and (max-width: 704px) {
+    @media screen and (max-width: 845px) {
         border: none;
         font-size: 15px;;
     }
@@ -49,9 +51,10 @@
     align-items: center;
     justify-content: center;
     padding: 3px;
-    border: white solid;
+    border-bottom: white solid;
+    border-left: white solid;
 
-    @media screen and (max-width: 704px) {
+    @media screen and (max-width: 845px) {
         border: none;
         font-size: 13px;
     }
@@ -86,20 +89,21 @@
 
 
 .Summary {
-    padding-top: 180px;
+    padding-top: 20px;
+    padding-bottom: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: #000000;
-    padding-bottom: 35px;
+    background-color:#000000;
     color: var(--text-color-light);
 
-    @media screen and (max-width: 704px) {
+    @media screen and (max-width: 845px) {
         display: flex;
         flex-direction: column;
         font-size: 11px;
+        border-top: wheat solid;
     }
 }
 .SummaryLinks {
@@ -110,18 +114,13 @@
     align-items: center;
     justify-content: center;
     border-right: white solid;
-    @media screen and (max-width: 704px) {
+    @media screen and (max-width: 845px) {
         border-right: none;
         border-bottom: white solid;
         padding-bottom: 25px;
     }
 
 }
-
-.SummaryLink {
-    
-}
-
 
 .Observation {
     width: 100vh;
@@ -131,7 +130,7 @@
     align-items: center;
     padding-left: 20px;
 
-    @media screen and (max-width: 704px) {
+    @media screen and (max-width: 845px) {
         width: 100%;
         padding-top: 25px;
         padding-right: 5px;
@@ -140,24 +139,64 @@
 }
 
 .TextContent {
-    padding-top: 5px;
-    padding-left: 15px;
-    padding-bottom: 15px;
     width: 100%;
     background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
+    color: var(--text-color-light);
+}
+
+.Introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-top: white solid;
+    border-left: white solid;
+    border-right: white solid;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=1060&t=st=1696552391~exp=1696552991~hmac=e94f56af85d6556acebfa0d37c3b67006fa5549f2fcf49ed0d5126febd24f5f3");
+}
+
+.Sides {
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: 845px) {
+        flex-direction: column;
+    }
+}
+
+.LeftSide {
+    display: flex;
+    flex-direction: column;
+    border-left: white solid;
+    border-right: white solid;
+    border-top: white solid;
+}
+
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    border-right: white solid;
+    border-top: white solid;
+    @media screen and (max-width: 845px) {
+        border-left: white solid;
+    }
 }
 
 .Section {
-    padding-top: 110px;
     display: flex;
+    padding: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 418.5px;
+    background-image: url("https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=1060&t=st=1696552391~exp=1696552991~hmac=e94f56af85d6556acebfa0d37c3b67006fa5549f2fcf49ed0d5126febd24f5f3");
+    border-bottom: white solid;
 }
 
 .Footer {
