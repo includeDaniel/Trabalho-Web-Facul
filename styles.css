@@ -196,11 +196,12 @@ h2 {
 
 .Section {
     display: flex;
-    padding: 30px;
+    padding: 50px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-height: 400px;
     background-image: url("https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=1060&t=st=1696552391~exp=1696552991~hmac=e94f56af85d6556acebfa0d37c3b67006fa5549f2fcf49ed0d5126febd24f5f3");
     border-bottom: white solid;
 }
