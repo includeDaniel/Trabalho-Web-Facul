@@ -92,6 +92,14 @@ h2 {
 .Meimg {
     width: 73px;
     border-radius: 800px;
+ 
+}
+
+.Meimg:hover {
+    -webkit-transform: rotateZ(1800deg);
+    -ms-transform: rotateZ(1800deg);
+    transform: rotateZ(1800deg);
+    transition-duration: 2s;  
 }
 
 .Author {
@@ -265,6 +273,9 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: white solid;
     @media screen and (max-width: 845px) {
         flex-direction: column;
     }
