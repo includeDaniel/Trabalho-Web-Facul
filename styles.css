@@ -65,6 +65,7 @@ h2 {
 }
 
 .RocketImg {
+    transition-duration: 2s;  
     width: 110px;
     @media screen and (max-width: 845px) {
         width: 50px;
@@ -74,7 +75,7 @@ h2 {
 .RocketImg:hover {
     width: 115px;
     position: relative;
-    margin-left: 200px;
+    margin-left: 250px;
     transition-duration: 4s;    
     transition-timing-function: cubic-bezier(1, 0.6, 0.07, 1);
     -webkit-transform: rotateZ(90deg);
