@@ -1,6 +1,7 @@
 .Wrapper {
     display: flex;
     flex-direction: column;
+    
 }
 
 .Center {
@@ -35,7 +36,7 @@ h2 {
     font-size: 30px;
     justify-content: center;
     align-items: center;
-
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     border-bottom: white solid;
 
     @media screen and (max-width: 845px) {
@@ -53,6 +54,7 @@ h2 {
     padding: 3px;
     border-bottom: white solid;
     border-left: white solid;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 
     @media screen and (max-width: 845px) {
         border: none;
@@ -99,6 +101,7 @@ h2 {
     background-color:#000000;
     color: var(--text-color-light);
     position: sticky;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 
     @media screen and (max-width: 845px) {
         display: flex;
@@ -165,6 +168,7 @@ h2 {
 .Sides {
     display: flex;
     flex-direction: row;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     @media screen and (max-width: 845px) {
         flex-direction: column;
     }
@@ -175,7 +179,6 @@ h2 {
     flex-direction: column;
     border-left: white solid;
     border-right: white solid;
-    border-top: white solid;
     width: 50%;
     height: 100%;
     @media screen and (max-width: 845px) {
@@ -187,7 +190,6 @@ h2 {
     display: flex;
     flex-direction: column;
     border-right: white solid;
-    border-top: white solid;
     width: 50%;
     @media screen and (max-width: 845px) {
         border-left: white solid;
@@ -204,7 +206,7 @@ h2 {
     width: 100%;
     min-height: 400px;
     background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    border-bottom: white solid;
+    border-top: white solid;
 }
 
 .Footer {
@@ -216,4 +218,6 @@ h2 {
     padding-bottom: 15px;
     background-color: black;
     color: white;
+    border-top: white solid;
+    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
