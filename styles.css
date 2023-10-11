@@ -253,6 +253,8 @@ h2 {
     display: flex;
     color: white;
     flex-direction: column;
+    padding-top: 30px;
+    border-top: white solid;
     justify-content: center;
     align-items: center;
     background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -265,7 +267,11 @@ h2 {
     align-items: center;
     flex-direction: column;
     width: 33%;
-    /*border: white solid;*/
+    border: white solid;
+    padding: 35px;
+    @media screen and (max-width: 845px) {
+        width: 100%;
+    }
 }
 
 .Line {
@@ -273,11 +279,11 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    padding-bottom: 35px;
-    padding-top: 35px;
-    border-bottom: white solid;
+    padding-top: 10 px;
     @media screen and (max-width: 845px) {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
 }
@@ -286,6 +292,12 @@ h2 {
     width: 225px;
     height: 225px;
     padding: 5px;
+}
+.Logo:hover {
+    -webkit-transform: rotateZ(1800deg);
+    -ms-transform: rotateZ(1800deg);
+    transform: rotateZ(1800deg);
+    transition-duration: 2s;  
 }
 
 .Footer {
@@ -298,7 +310,6 @@ h2 {
     padding-bottom: 15px;
     background-color: black;
     color: white;
-    border-top: white solid;
     background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
 
