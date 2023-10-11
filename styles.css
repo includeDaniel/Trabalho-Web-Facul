@@ -1,5 +1,6 @@
 html {
     background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    scroll-behavior: smooth;
 }
 
 .Wrapper {
@@ -83,11 +84,9 @@ h2 {
     -webkit-transform: rotateZ(90deg);
     -ms-transform: rotateZ(90deg);
     transform: rotateZ(90deg);
-
- 
     @media screen and (max-width: 845px) {
+        margin-left: 0px;
         width: 50px;
-        position: absolute;
     }
 }
 
@@ -309,3 +308,22 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+.btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    transform: translateY(100%);
+}
+   
+   .btn.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+   }
