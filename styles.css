@@ -175,7 +175,7 @@ h2 {
     padding-right: 10px;
 
     @media screen and (max-width: 846px) {
-        width: 50vh;
+        width: 100%;
         padding-top: 25px;
         padding-right: 5px;
         font-size: 10px;
